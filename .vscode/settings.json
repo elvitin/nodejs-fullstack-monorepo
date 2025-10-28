@@ -34,7 +34,5 @@
   "[json]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
-  "tailwindCSS.classFunctions": [
-    "cva"
-  ]
+  "tailwindCSS.classFunctions": ["cva"]
 }
