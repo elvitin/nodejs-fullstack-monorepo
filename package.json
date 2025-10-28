@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A nodejs monorepo template with: ReactJs, Chadcn, Typescript, Turborepo, VsCode settings and extensions and others.",
   "scripts": {
+    "lint": "turbo run lint",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "npx @biomejs/biome format --write",
     "fmt:lint": "npx @biomejs/biome check --write"
   },
   "repository": {
